@@ -1,17 +1,21 @@
-# mi_primera_app
 
-A new Flutter project.
+# Mis Contraseñas
 
-## Getting Started
+Una aplicación Flutter para gestionar contraseñas de manera sencilla. Permite agregar contraseñas y visualizarlas en una lista con diferentes colores de fondo según la longitud de la contraseña.
 
-This project is a starting point for a Flutter application.
+## Características
 
-A few resources to get you started if this is your first Flutter project:
+- **Agregar Contraseñas**: Permite al usuario agregar nuevas contraseñas a la lista.
+- **Visualización de Contraseñas**: Las contraseñas se muestran en una lista con cada carácter reemplazado por un asterisco (`*`).
+- **Colores de Fondo**: El color de fondo de cada contraseña en la lista varía según la longitud de la contraseña:
+  - Longitud 0: Negro
+  - Longitud 1-4: Rojo
+  - Longitud 5-7: Amarillo
+  - Longitud 8 o más: Verde
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalación
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-password-checker
+1. **Clona el repositorio**:
+   ```sh
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   cd tu_repositorio

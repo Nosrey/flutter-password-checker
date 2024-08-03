@@ -1,3 +1,29 @@
+/// The main entry point for the Flutter application.
+///
+/// This file contains the `main` function which is the entry point for the Flutter application.
+/// It imports the necessary packages and runs the `MyApp` widget.
+///
+/// The `MyApp` widget is the root of the application and is responsible for setting up the
+/// application's theme and defining the home page.
+///
+/// The `MyHomePage` widget is a stateful widget that represents the home page of the application.
+/// It contains a list of passwords and a text field for adding new passwords.
+/// The passwords are displayed in a `ListView` with each password represented by a `ListTile`.
+/// The background color of each `ListTile` is determined based on the length of the password.
+///
+/// The `_addPassword` method is called when the user taps the floating action button to add a new password.
+/// It adds the entered password to the list of passwords and clears the text field.
+///
+/// The `_aesterisk` method takes a password as input and returns a string with the same length as the password,
+/// but with all characters replaced by asterisks.
+///
+/// The `_backgroundColor` method takes a password as input and returns a color based on the length of the password.
+/// Passwords with length 0 have a black background, passwords with length 1-4 have a red background,
+/// passwords with length 5-7 have a yellow background, and passwords with length 8 or more have a green background.
+///
+/// The `build` method is responsible for building the UI of the home page.
+/// It returns a `Scaffold` widget that contains an app bar, a text field, a `ListView` of passwords,
+/// and a floating action button for adding passwords.
 import 'package:flutter/material.dart';
 
 void main() {

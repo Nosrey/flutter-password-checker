@@ -17,5 +17,5 @@ Una aplicación Flutter para gestionar contraseñas de manera sencilla. Permite 
 
 1. **Clona el repositorio**:
    ```sh
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/Nosrey/flutter-password-checker.git
+   cd flutter-password-checker
